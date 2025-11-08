@@ -83,7 +83,7 @@ app.put("/todos/:id", async (req, res) => {
   }
 });
 
-// Delete the item
+// Delete the items
 
 app.delete("/todos/:id", async (req, res) => {
   try {
